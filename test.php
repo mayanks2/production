@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "newuser";
 $password = "";
 $database = "mysqldb";
-//testing
+//testingf
 try {
     $conn = new PDO("mysql:host=$servername;dbname=demodb", $username, $password);
     // set the PDO error mode to exception
